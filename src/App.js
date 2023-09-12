@@ -2,9 +2,9 @@
 // eslint-disable-next-line react-hooks/exhaustive-deps
 
 import React, { useEffect, useState } from "react";
-import ColorfulMessage from "./components/ColorfulMessage";
+import { ColorfulMessage } from "./components/ColorfulMessage";
 
-const App = () => {
+export const App = () => {
   console.log("最初");
   const [num, setNum] = useState(0);
   const [faceShowFlag, setFaceShowFlag] = useState(false);
@@ -51,4 +51,4 @@ const App = () => {
   );
 };
 
-export default App;
+// export default App;
